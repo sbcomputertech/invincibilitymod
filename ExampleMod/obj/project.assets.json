@@ -708,14 +708,14 @@
   "project": {
     "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\reddust9\\cobweb\\invincibility\\ExampleMod\\ExampleMod.csproj",
+      "projectUniqueName": "C:\\Users\\reddust9\\cobweb\\mods\\invincibility\\ExampleMod\\ExampleMod.csproj",
       "projectName": "InvincibilityMod",
-      "projectPath": "C:\\Users\\reddust9\\cobweb\\invincibility\\ExampleMod\\ExampleMod.csproj",
+      "projectPath": "C:\\Users\\reddust9\\cobweb\\mods\\invincibility\\ExampleMod\\ExampleMod.csproj",
       "packagesPath": "C:\\Users\\reddust9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\reddust9\\cobweb\\invincibility\\ExampleMod\\obj\\",
+      "outputPath": "C:\\Users\\reddust9\\cobweb\\mods\\invincibility\\ExampleMod\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\reddust9\\cobweb\\invincibility\\NuGet.Config",
+        "C:\\Users\\reddust9\\cobweb\\mods\\invincibility\\NuGet.Config",
         "C:\\Users\\reddust9\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

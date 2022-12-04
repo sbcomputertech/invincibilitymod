@@ -14,15 +14,30 @@ namespace ExampleMod
         {
             // Creating new harmony instance
             var harmony = new Harmony(ModGuid);
+            var mDamage = typeof(SpiderHealthSystem).GetMethod("Damage");
+            var mDisintegrate = typeof(SpiderHealthSystem).GetMethod("Disintegrate");
+            var hmPrefix = new HarmonyMethod(typeof(Patch1).GetMethod("Prefix"));
+            if (mDamage == null || mDisintegrate == null)
+            {
+                throw new Exception("Unable to get methods to patch");
+            }
 
-            // Applying patches
-            harmony.PatchAll();
+            harmony.Patch(mDamage, prefix: hmPrefix);
+            harmony.Patch(mDisintegrate, prefix: hmPrefix);
+            
             Logger.LogInfo($"{ModName} successfully loaded! Made by {ModAuthor}");
         }
 
         private void Update()
         {
             SurvivalMode.instance.Lives = 99;
+        }
+        public class Patch1
+        {
+            public static bool Prefix()
+            {
+                return false;
+            }
         }
     }
 }

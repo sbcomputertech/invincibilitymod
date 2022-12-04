@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lgFl6JnlPJUnDBpsswbNLRdEkIwrqpKddCj3dakwbqGrBeV/lB+vlYOqybcoSwAI1IGcRAgfuOrqPYoBUb1IRA==",
+  "dgSpecHash": "hr4aWL8zT2mA+caDhsM4Zy11qRXBi6HU1b2CbBQ7aNcoHXYacpFBNUKT5UdHKmbmlVKDLxH210jPzsl5/9SjZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\reddust9\\cobweb\\invincibility\\ExampleMod\\ExampleMod.csproj",
+  "projectFilePath": "C:\\Users\\reddust9\\cobweb\\mods\\invincibility\\ExampleMod\\ExampleMod.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reddust9\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\reddust9\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
