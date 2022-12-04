@@ -6,9 +6,9 @@ namespace ExampleMod
     [BepInPlugin(ModGuid, ModName, ModVersion)]
     public class Main : BaseUnityPlugin
     {
-        private const string ModName = "7in7 Day 1";
+        private const string ModName = "InvincibilityMod";
         private const string ModAuthor  = "reddust9";
-        private const string ModGuid = "com.reddust9.7in7.day1";
+        private const string ModGuid = "com.reddust9.invincibility";
         private const string ModVersion = "1.0.0";
         internal void Awake()
         {
